@@ -1,0 +1,601 @@
+/*　フォント */
+.main p, li, h3{
+    font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* 全体 */
+.main {
+    border: solid 2px #000000
+}
+
+.main h1 {
+    text-align: left;
+    margin: 30px;
+    font-size: 35px;
+    margin-left: 150px;
+    width: 80%;
+    border:solid 1px #5E83BF;
+    border-width: 0px 0px 5px 0px;
+    color: #000000;
+
+    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* ヘッダータイトルとナビゲーション */
+.header-parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: fixed;
+}
+
+.header-block {
+    height: 60px;
+    margin: 10px;
+    font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#header-title h1 {
+    color: #FFFFFF;
+    font-family: work-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#header-title a {
+    text-decoration: none;
+}
+
+.redtitle{
+    color: #C42929;
+    
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    margin: 0px 20px 0px 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 200ms 0ms ease;
+}
+
+.menu li a:hover {
+    background-color: rgba(84, 149, 192, 0.445);
+}
+
+
+.menu ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu li {
+    float: left;
+    width: auto;
+}
+
+
+/* 見出し */
+.key {
+    margin-bottom: 200px;
+    border-bottom: solid 2px #e0e0e0;
+}
+
+#keytitle {
+    font-family: vdl-logona, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/* プロフィール */
+
+.profile-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-block {
+    width: 40%;
+    height: 500px;
+    margin: 10px;
+    margin-top: 50px;
+    color: #494949;
+}
+
+#text1 {
+    font-size: 18px;
+}
+
+#text1 p {
+    margin-bottom: 60px;
+    margin-left: 30px;
+
+}
+
+.al h3 {
+    margin-left: 30px;
+}
+
+#text1 ul {
+    list-style-type: square;
+}
+
+#text1 li {
+    font-size: 19px;
+}
+
+.al {
+    margin: 0px 0px 60px 50px;
+}
+
+
+#img1 {
+    text-align: center;
+}
+
+#img1 p {
+    margin-top: 40px;
+    font-size: 19px;
+}
+
+#icon {
+    border:solid 1px #707070;
+}
+
+
+/* スキル */
+.skill h2 {
+    font-size: 25px;
+
+    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #F0F0F0;
+    color: #494949;
+}
+
+.skill p {
+    font-size: 16px;
+    color: #494949;
+}
+
+.skill-point {
+    color: #75A387;
+    font-size: 15px;
+}
+
+.skill-block {
+    width: 35%;
+    height: 230px;
+    margin: 10px;
+}
+
+.skill-parent {
+    display: flex;
+    justify-content: center;
+}
+
+#web, #cpp {
+    margin-bottom: 80px;
+}
+
+
+#xd, #py {
+    margin-bottom: 150px;
+}
+
+/* 作品 */
+
+.work {
+    padding-bottom: 100px;
+}
+
+.slack-parent, .port-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.slack-block, .port-block {
+    margin: 10px;
+    font-size: 16px;
+    width: 30%;
+    height: 240px;
+    color: #494949;
+    margin-bottom: 90px;
+}
+
+#slack-img, #port-img {
+    margin: 10px;
+    font-size: 16px;
+    width: 30%;
+    height: 240px;
+    padding-top: 4px;
+    border: solid 1px #adadad;
+    text-align: center;
+}
+
+#slack-text, #port-text {
+    width: 40%;
+}
+
+.work h4 {
+    font-size: 18px;
+}
+
+/* これまでの活動 */
+
+.history {
+    padding-bottom: 80px;
+}
+
+.history-parent {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 270px;
+}
+
+.history-block {
+    width: 60%;
+    color: #494949;
+}
+
+.history-block li {
+    list-style-type: square;
+}
+
+/* 著作権 */
+
+.copyright {
+    background-color: #D1D1D1;
+    padding-bottom: 5px;
+    
+}
+
+.copyright p {
+    color: #6C6C6C;
+    font-size: 12px;
+}
+
+/* レスポンシブ */
+/*　スマホ用 */
+@media (max-width: 549px) {
+    /* ヘッダー */
+    .header-parent {
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: fixed;
+    text-align: center;
+    }
+
+    #header-title h1 {
+        font-size: 20px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+
+    }
+
+    .header-block {
+        height: 20px;
+    }
+    
+    #header-link {
+        display: none;
+        height: 0%;
+    } 
+
+    /* トップ */
+    .key {
+        display: block;
+
+    }
+
+    h2#keytitle {
+        font-size: 30px;
+    } 
+
+    #keyimg {
+        height: 100%; 
+        text-align: center;
+    }
+
+    /* 見出し */
+    .main h1{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 50%;
+    }
+
+    .key {
+        margin-bottom: 50px;
+        border-bottom: solid 2px #e0e0e0;
+    }
+
+    /*　プロフィール　*/
+    #img1 p, #text1 li {
+        font-size: 12px;
+    }
+
+    #img1 {
+      width: 45%;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+
+    #img1 p {
+        margin-top: 0px;
+    }
+
+
+    #text1 {
+        width: 80%;
+        text-align: left;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .profile-block {
+        width: 40%;
+        height: 200px;
+        margin-top: 60px;
+        color: #494949;
+    }
+
+    #text1 p {
+        margin-bottom: 60px;
+        margin-left: 0px;
+    
+    }
+
+    .al h3 {
+        margin-left: 0px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .profile-parent {
+        display: block;
+        justify-content: center;
+    }
+
+    .al {
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* スキル */
+    .skill p {
+        font-size: 11px;
+        color: #494949;
+    }
+
+    .skill h2 {
+        font-size: 12px;
+    }
+
+    .skill-point {
+        font-size: 8px;
+    }
+
+    .skill-block {
+        width: 43%;
+        height: 100px;
+        margin: 5px;
+    }
+
+    #xd, #py {
+        margin-bottom: 120px;
+    }
+
+    #web, #cpp {
+        margin-top: 30px;
+    }
+
+    /* 成果物 */
+    .slack-parent, .port-parent {
+        display: block;
+    
+    }
+
+    .slack-block, .port-block {
+        font-size: 11px;
+        width: 85%;
+        height: 150px;
+        margin: 40px 0px 40px 40px;
+        
+    }
+    
+    #slack-img, #port-img {
+        font-size: 11px;
+        width: 60%;
+        height: 60%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    #slack-text, #port-text {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding-bottom: 40px;
+        
+    }
+
+    .work h4 {
+        font-size: 11px;
+    }
+
+    /* 活動 */
+    .history-parent {
+        padding-bottom: 120px;
+    }
+
+    .history-block {
+        margin: 10px;
+    }
+
+    .history-block li {
+        list-style-type: square;
+        font-size: 11px;
+    }
+
+    .copyright p {
+        font-size: 5px;
+    }
+}
+
+/* PC用 */
+@media (min-width: 550px) and (max-width: 1025px) {
+    .main h1 {
+        text-align: left;
+        margin: 30px;
+        font-size: 25px;
+        width: 90%;
+    }
+
+
+    #header-title h1 {
+        font-size: 25px;
+    }
+
+    .menu li a {
+        font-size: 12px;
+        margin: 0px 5px 0px 5px;
+        color: #C42929;
+    }
+
+    .profile {
+        padding-bottom: 100px;
+    }
+
+    .profile-parent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-block {
+        height: 200px;
+        margin: 10px;
+        color: #494949;
+    }
+
+    #img1 p, #text1 li {
+        font-size: 16px;
+    }
+
+    #img1 {
+        width: 30%;
+    }
+
+    #text1 {
+        width: 30%;
+        padding-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .al h3 {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .al {
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    /* スキル */
+    .skill {
+        padding-bottom: 100px;
+    }
+
+    .skill h2 {
+        font-size: 16px;
+    }
+
+    .skill-point {
+        font-size: 12px;
+    }
+
+    .skill-block {
+        width: 40%;
+        height: 100px;
+        margin: 5px;
+    }
+
+    #xd, #py {
+        margin-bottom: 120px;
+    }
+
+    #web, #cpp {
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+
+    /* 成果物 */
+    .slack-parent, .port-parent {
+        margin-bottom: 30px;
+    }
+
+    .slack-block, .port-block {
+        font-size: 16px;
+    }
+
+    #slack-text, #port-text {
+        width: 50%;
+    }
+    
+    #slack-img, #port-img {
+        font-size: 16px;
+        height: 100%;
+    }
+
+    .work h4 {
+        font-size: 16px;
+    }
+
+    /* 活動 */
+    .history {
+        margin-bottom: 300px;
+    }
+    
+    .history-parent {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 270px;
+    }
+    
+    .history-block {
+        width: 100%;
+        margin-left: 50px;
+    }
+    /* 著作権 */
+    .copyright p {
+        font-size: 5px;
+    }
+}

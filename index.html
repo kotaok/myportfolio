@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kota-portfolio</title>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'rwm5jzy',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="./code.js"></script>
+    
+
+</head>
+
+<body>
+
+
+    <div class="header-parent">
+        <div id="header-title" class="header-block">
+            <a href="#0"><h1>P<span class="redtitle">O</span>RTF<span class="redtitle">O</span>LI<span
+                    class="redtitle">O</span></h1></a>
+        </div>
+        <div id="header-link" class="header-block">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#1">プロフィール</a></li>
+                    <li><a href="#2">スキル</a></li>
+                    <li><a href="#3">作品</a></li>
+                    <li><a href="#4">これまでの活動</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <div class="main" id="0">
+        <div class="key">
+            <div id="sec1">
+                <img src="./img/key.png" alt="air" width="100%" id="keyimg">
+            </div>
+            <div id="sec2">
+                <h2 id="keytitle">PROGRAMMING<br>
+                    PORTFOLIO</h2>
+            </div>
+        </div>
+
+        <div class="profile" id="1">
+            <h1>プロフィール</h1>
+            <div class="profile-parent">
+                <div id="img1" class="profile-block">
+                    <img src="./img/profileicon.jpg" alt="icon" width="45%" id="icon">
+                    <p>Kota<br><br>
+                        16歳の高校1年生。<br>
+                        現在は春期FEの勉強中。
+                    </p>
+                </div>
+                <div id="text1" class="profile-block">
+                    <div class="al">
+                        <h3>主な活動</h3>
+                        <ul>
+                            <li>webプログラミング</li>
+                            <li>競技プログラミング</li>
+                        </ul>
+                    </div>
+                    <div class="al">
+                        <h3>言語</h3>
+                        <ul>
+                            <li>HTML&CSS</li>
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="skill" id="2">
+            <h1>スキル</h1>
+            <div class="skill-parent">
+                <div id="web" class="skill-block">
+                    <h2>web <br><span class="skill-point">■■■■□□□□□□</span></h2>
+                    <p>HTML、CSSの基本はわかる。<br>
+                        簡単なwebページなら製作可能。<br>
+                        Javascriptは勉強中。<br>
+                    </p>
+                </div>
+                
+                <div id="cpp" class="skill-block">
+                    <h2>C++ <br><span class="skill-point">■■■□□□□□□□</span></h2>
+                    <p>基本文法はわかる。<br>
+                        AtCoderのコンテストに参加中。<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-parent">
+                <div id="xd" class="skill-block">
+                    <h2>AdobeXD <br><span class="skill-point">■■■■□□□□□□</span></h2>
+                    <p>基本操作と少しショートカットが使えるレベル。<br>
+                        主に、webページのプロトタイプ作成に<br>
+                        使用している。<br>
+                    </p>
+                </div>
+                
+                <div id="py" class="skill-block">
+                    <h2>Python <br><span class="skill-point">■■■□□□□□□□</span></h2>
+                    <p>自分が初めて触った言語。<br>
+                        基本文法はわかる。<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="work" id="3">
+            <h1>作品</h1>
+            <div class="slack-parent">
+                <div id="slack-text" class="slack-block">
+                    <h4>PythonのSlackBotライブラリを使用して<br>
+                        作成した自動翻訳Bot<br>
+                    </h4>
+                    <p>PythonのSlackBotライブラリと翻訳ライブラリを<br>
+                        使用して、Slack上で動作するBotを作りました。<br>
+                        メンションと翻訳したい言葉（日本語に対応）を<br>
+                        送信すると、自動で原文と英語に翻訳したメッセージを<br>
+                        返してくれます。<br>
+                    </p>
+                </div>
+                <div id="slack-img" class="slack-block">
+                    <img src="./img/slackbot.png" alt="slackbot-img" width="100%">
+                </div>
+            </div>
+            <div class="port-parent">
+                <div id="port-text" class="port-block">
+                    <h4>ポートフォリオサイト</h4>
+                    <p>Adobe XDでデザインを設計し、<br>
+                        VSCodeでコーディングしました。<br>
+                        工夫した点は、jQueryで色が変化するヘッダーと<br>
+                        レスポンシブ対応のデザインです。<br>
+                        HTML&CSSの練習も兼ねています。<br>
+                    </p>
+                </div>
+                <div id="port-img" class="port-block">
+                    <img src="./img/kotaportfolio.png" alt="portfolio-img" width="100%">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="history" id="4">
+            <h1>これまでの活動</h1>
+            <div class="history-parent">
+                <div class="history-block">
+                    <ul>
+                        <li>2019年12月13日<br>ITパスポート試験合格</li>
+                        <li>2019年12月<br>ポートフォリオ Ver1.0作成</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>©︎2019 kota</p>
+        </div>
+</body>
+
+</html>
