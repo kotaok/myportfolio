@@ -327,6 +327,7 @@
     margin: 0 auto;
     font-size: 20px;
     width: 50%;
+    color: #000000;
     }
 
     .key {
@@ -337,6 +338,7 @@
     /*　プロフィール　*/
     #img1 p, #text1 li {
         font-size: 12px;
+        color: #000000;
     }
 
     #img1 {
@@ -348,6 +350,7 @@
 
     #img1 p {
         margin-top: 0px;
+        color: #000000;
     }
 
 
@@ -370,13 +373,13 @@
     #text1 p {
         margin-bottom: 60px;
         margin-left: 0px;
-    
     }
 
     .al h3 {
         margin-left: 0px;
         font-size: 15px;
         text-align: center;
+        color: #000000;
     }
 
     .profile-parent {
@@ -391,11 +394,12 @@
     /* スキル */
     .skill p {
         font-size: 11px;
-        color: #494949;
+        color: #000000;
     }
 
     .skill h2 {
         font-size: 12px;
+        color: #000000;
     }
 
     .skill-point {
@@ -444,7 +448,7 @@
         margin: 0 auto;
         margin-bottom: 10px;
         padding-bottom: 40px;
-        
+        color: #000000;
     }
 
     .work h4 {
@@ -463,6 +467,7 @@
     .history-block li {
         list-style-type: square;
         font-size: 11px;
+        color: #000000;
     }
 
     .copyright p {
