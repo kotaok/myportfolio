@@ -205,18 +205,30 @@
     margin-bottom: 150px;
 }
 
+.skill-other {
+    width: 80%;
+    /* background-color: palegoldenrod; */
+    margin: auto;
+    border-top: solid 1px #D1D1D1;
+    color: #494949;
+}
+
+.skill-other li {
+    list-style-type: square;
+}
+
 /* 作品 */
 
 .work {
     padding-bottom: 100px;
 }
 
-.slack-parent, .port-parent {
+.slack-parent, .port-parent, .brain-parent {
     display: flex;
     justify-content: center;
 }
 
-.slack-block, .port-block {
+.slack-block, .port-block, .brain-block {
     margin: 10px;
     font-size: 16px;
     width: 30%;
@@ -225,7 +237,7 @@
     margin-bottom: 90px;
 }
 
-#slack-img, #port-img {
+#slack-img, #port-img, #brain-img {
     margin: 10px;
     font-size: 16px;
     width: 30%;
@@ -235,8 +247,19 @@
     text-align: center;
 }
 
-#slack-text, #port-text {
+
+#slack-text, #port-text, #brain-text {
     width: 40%;
+}
+
+#brain-text a {
+    text-decoration: none;
+    color: #5E83BF;
+    transition: all 300ms ease;
+}
+
+#brain-text a:hover {
+    color: rgb(162, 176, 201);
 }
 
 .work h4 {
@@ -420,13 +443,18 @@
         margin-top: 30px;
     }
 
+    .skill-other {
+        font-size: 11px;
+        color: #000000;
+    }
+
     /* 成果物 */
-    .slack-parent, .port-parent {
+    .slack-parent, .port-parent, .brain-parent {
         display: block;
     
     }
 
-    .slack-block, .port-block {
+    .slack-block, .port-block, .brain-block {
         font-size: 11px;
         width: 85%;
         height: 150px;
@@ -434,7 +462,7 @@
         
     }
     
-    #slack-img, #port-img {
+    #slack-img, #port-img, #brain-img {
         font-size: 11px;
         width: 60%;
         height: 60%;
@@ -443,7 +471,7 @@
         margin-top: 60px;
     }
 
-    #slack-text, #port-text {
+    #slack-text, #port-text, #brain-text {
         width: 80%;
         margin: 0 auto;
         margin-bottom: 10px;
@@ -563,19 +591,19 @@
     }
 
     /* 成果物 */
-    .slack-parent, .port-parent {
+    .slack-parent, .port-parent, .brain-parent {
         margin-bottom: 30px;
     }
 
-    .slack-block, .port-block {
+    .slack-block, .port-block, .brain-block {
         font-size: 16px;
     }
 
-    #slack-text, #port-text {
+    #slack-text, #port-text, #brain-text {
         width: 50%;
     }
     
-    #slack-img, #port-img {
+    #slack-img, #port-img, #brain-img {
         font-size: 16px;
         height: 100%;
     }
