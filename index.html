@@ -21,8 +21,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script src="./code.js"></script>
-    
-
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
 <body>
@@ -72,7 +71,6 @@
                         <h3>主な活動</h3>
                         <ul>
                             <li>webプログラミング</li>
-                            <li>競技プログラミング</li>
                         </ul>
                     </div>
                     <div class="al">
@@ -82,6 +80,7 @@
                             <li>JavaScript</li>
                             <li>C++</li>
                             <li>Python</li>
+                            <li>PHP</li>
                         </ul>
                     </div>
                 </div>
@@ -93,7 +92,11 @@
             <h1>スキル</h1>
             <div class="skill-parent">
                 <div id="web" class="skill-block">
-                    <h2>web <br><span class="skill-point">■■■■□□□□□□</span></h2>
+                    <h2>HTMLCSS・JS 
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js"></i><br>
+                        <span class="skill-point">■■■■■■□□□□ 60%</span></h2>
                     <p>HTML、CSSの基本はわかる。<br>
                         簡単なwebページなら製作可能。<br>
                         JavaScriptは勉強中。<br>
@@ -101,7 +104,7 @@
                 </div>
                 
                 <div id="cpp" class="skill-block">
-                    <h2>C++ <br><span class="skill-point">■■■□□□□□□□</span></h2>
+                    <h2>C++ <br><span class="skill-point">■■□□□□□□□□ 20%</span></h2>
                     <p>基本文法はわかる。<br>
                         AtCoderのコンテストに参加中。<br>
                     </p>
@@ -110,7 +113,9 @@
 
             <div class="skill-parent">
                 <div id="xd" class="skill-block">
-                    <h2>AdobeXD <br><span class="skill-point">■■■■□□□□□□</span></h2>
+                    <h2>AdobeXD 
+                        <i class="fab fa-adobe"></i><br>
+                        <span class="skill-point">■■■■■□□□□□ 50%</span></h2>
                     <p>基本操作と少しショートカットが使えるレベル。<br>
                         主に、webページのプロトタイプ作成に<br>
                         使用している。<br>
@@ -118,12 +123,36 @@
                 </div>
                 
                 <div id="py" class="skill-block">
-                    <h2>Python <br><span class="skill-point">■■■□□□□□□□</span></h2>
+                    <h2>Python 
+                        <i class="fab fa-python"></i><br>
+                        <span class="skill-point">■■□□□□□□□□ 20%</span></h2>
                     <p>自分が初めて触った言語。<br>
                         基本文法はわかる。<br>
                     </p>
                 </div>
             </div>
+
+            <div class="skill-parent">
+                <div id="php" class="skill-block">
+                    <h2>PHP 
+                        <i class="fab fa-php"></i><br>
+                        <span class="skill-point">■■□□□□□□□□ 20%</span></h2>
+                    <p>HTML中に埋め込み、出力ができるレベル。
+                        基本的な文法は勉強中。
+                    </p>
+                </div>
+
+                <div id="sql" class="skill-block">
+                    <h2>SQL 
+                        <i class="fas fa-database"></i><br>
+                        <span class="skill-point">■■□□□□□□□□ 20%</span></h2>
+                    <p>データの取得はできるが、基礎構文は<br>
+                        覚えきれていない。
+                        PHPと組み合わせて使っている。
+                    </p>
+                </div>
+            </div>
+
             <div class="skill-other">
                 <h3>その他</h3>
                 <ul>
@@ -141,6 +170,8 @@
                     <h4>PythonのSlackBotライブラリを使用して<br>
                         作成した自動翻訳Bot<br>
                     </h4>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-slack"></i>
                     <p>PythonのSlackBotライブラリと翻訳ライブラリを<br>
                         使用して、Slack上で動作するBotを作りました。<br>
                         メンションと翻訳したい言葉（日本語に対応）を<br>
@@ -155,6 +186,10 @@
             <div class="port-parent">
                 <div id="port-text" class="port-block">
                     <h4>ポートフォリオサイト</h4>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <a href="https://github.com/kotaok/myportfolio" target="_blank"><i class="fab fa-github" id="github-icon"></i></a>
                     <p>Adobe XDでデザインを設計し、<br>
                         VSCodeでコーディングしました。<br>
                         工夫した点は、jQueryで色が変化するヘッダーと<br>
@@ -168,7 +203,11 @@
             </div>
             <div class="brain-parent">
                 <div id="brain-text" class="brain-block">
-                    <a href="https://storm-webrain.herokuapp.com/"><h4>WeBrain（チャットアプリ）</h4></a>
+                    <a href="https://storm-webrain.herokuapp.com/" target="_blank"><h4>WeBrain（チャットアプリ）</h4></a>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-node"></i>
                     <p>「ブレインストーミング」で出たアイデアを<br>
                         メンバーとチャットで共有できる<br>
                         webアプリを作りました。<br>
@@ -176,6 +215,8 @@
                         チャットの送受信と保存はFirebaseの<br>
                         RealtimeDatabaseを使っています。<br>
                     </p>
+
+
                 </div>
                 <div id="brain-img" class="brain-block">
                     <a href="https://storm-webrain.herokuapp.com/"><img src="./img/webrain.png" alt="webrain-img" width="100%"></a>
@@ -189,8 +230,9 @@
             <div class="history-parent">
                 <div class="history-block">
                     <ul>
-                        <li>2019年12月13日<br>ITパスポート試験合格</li>
-                        <li>2019年12月<br>ポートフォリオ Ver1.0作成</li>
+                        <li>2019年12月<br>ITパスポート試験合格</li>
+                        <li>12月<br>ポートフォリオ公開</li>
+                        <li>2020年2月<br>「WeBrain」公開</li>
                     </ul>
                 </div>
             </div>
